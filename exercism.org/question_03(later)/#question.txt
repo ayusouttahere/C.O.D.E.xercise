@@ -1,0 +1,21 @@
+Determine if a word or phrase is an isogram.
+
+An isogram (also known as a "non-pattern word") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
+
+Examples of isograms:
+
+lumberjacks
+background
+downstream
+six-year-old
+The word isograms, however, is not an isogram, because the s repeats.
+
+
+
+LOGIC : 
+1) create an function named isogram(input an string and output t/f), and another one to change uppercase letter to lowercase ; 
+2) an array[26] to store all the index of alphabet and set them to 0 ; 
+3) iterate thru all the characters of input strings and : check for alphabet and then change it's uppercase to lowercase ; 
+4) check cooresponding index in array if value at index is already 1 return false, else set the value to 1. 
+5) if string endsa nd none of 'em chars repeated then return true ; 
+
